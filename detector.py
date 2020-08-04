@@ -91,7 +91,7 @@ loaded_ims = [cv2.imread(x) for x in imlist]
 # PyTorch variables for images
 im_batches = list(map(prep_image, loaded_ims, [inp_dim for x in range(len(imlist))]))
 
-# List ontaining dimensions of original images
+# List containing dimensions of original images
 im_dim_list = [(x.shape[1], x.shape[0]) for x in loaded_ims]
 im_dim_list = torch.FloatTensor(im_dim_list).repeat(1, 2)
 
