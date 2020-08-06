@@ -1,0 +1,5 @@
+/venv/
+/yolov3.weights
+/images/dog-cycle-car.png
+/det/det_dog-cycle-car.png
+/cfg/yolov3.weights

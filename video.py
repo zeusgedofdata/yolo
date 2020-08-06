@@ -84,10 +84,10 @@ def write(x, results):
     return img
 
 #Path to our video file
-videofile = "videos/video.mp4"
-cap = cv2.VideoCapture(videofile)
+#videofile = "videos/video.mp4"
+#cap = cv2.VideoCapture(videofile)
 
-#cap = cv2.VideoCapture(0) #Webcam
+cap = cv2.VideoCapture(0) #Webcam
 
 assert cap.isOpened(), 'Cannot capture source'
 
